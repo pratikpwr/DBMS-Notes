@@ -1,0 +1,4 @@
+SHOW DATABASES;
+USE practice;
+SELECT database();
+SHOW TABLES;

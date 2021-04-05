@@ -2,7 +2,7 @@
 
 ```
 INSERT INTO cats(name, breed, age)
-VALUES('Blue', 'Persian', 1);
+VALUE('Blue', 'Persian', 1);
 ```
 
 - Insert Multiple values at a time

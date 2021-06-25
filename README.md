@@ -4,4 +4,9 @@
 
 **MySQL**
 
+- Basic Queries
+- Tables
+- Insert and retrieve data
+- CRUD Operations
+
 **MongoDB**

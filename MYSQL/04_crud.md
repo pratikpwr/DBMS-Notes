@@ -42,7 +42,8 @@ SELECT * FROM cats WHERE age=4;
 
 SELECT name, age FROM cats WHERE breed = 'tabby'; #just tabby cats
 
-SELECT cat_id, age FROM cats WHERE cat_id = age; # cat id is same as age
+SELECT cat_id, age FROM cats WHERE cat_id = age;
+# cat id is same as age
 ```
 
 **Aliases AS**

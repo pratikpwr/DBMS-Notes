@@ -9,7 +9,7 @@ VALUE('Blue', 'Persian', 1);
 
 ```
 INSERT INTO cats(name, breed, age)
-VALUES ('Sadie', 'Asian', 3),
+VALUES ('Sadie', 'Asian', 3), 
        ('alfa' , 'italian',5);
 ```
 

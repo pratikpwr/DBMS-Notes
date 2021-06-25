@@ -13,6 +13,9 @@ CREATE TABLE books
 INSERT INTO books (title, author_fname, author_lname, released_year, stock_quantity, pages)
 VALUES
 ('The Namesake', 'Jhumpa', 'Lahiri', 2003, 32, 291),
+('10% Happier', 'Dan', 'Harris', 2014, 29, 256), 
+('fake_book', 'Freida', 'Harris', 2001, 287, 428),
+('Lincoln In The Bardo', 'George', 'Saunders', 2017, 1000, 367),
 ('Norse Mythology', 'Neil', 'Gaiman',2016, 43, 304),
 ('American Gods', 'Neil', 'Gaiman', 2001, 12, 465),
 ('Interpreter of Maladies', 'Jhumpa', 'Lahiri', 1996, 97, 198),

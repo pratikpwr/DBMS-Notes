@@ -16,3 +16,5 @@ SELECT SUM(pages) AS total_pages FROM books;
 
 -- avg pages by author
 SELECT author_fname, AVG(pages) FROM books GROUP BY author_fname, author_lname;
+
+

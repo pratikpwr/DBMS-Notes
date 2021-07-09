@@ -37,3 +37,14 @@ SELECT author_fname, AVG(pages) FROM books GROUP BY author_fname, author_lname;
 ```
 => avg pages by author
 
+
+#  CASE 
+- like switch case
+```
+SELECT title, released_year,
+	CASE
+		WHEN released_year >=2000 THEN 'Modern'
+	ELSE '20th Century'
+    END AS 'Period'
+FROM books;
+```

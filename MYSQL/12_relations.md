@@ -60,3 +60,16 @@ ON orders.customer_id= customers.id
 ```
 SELECT * FROM customers RIGHT JOIN orders ON orders.customer_id= customers.id;
  ```
+
+
+ ## Many-many Relations
+
+ 3 tables in query
+
+ ```
+SELECT title, rating, first_name 
+FROM series 
+JOIN reviews ON series.id = reviews.series_id
+ JOIN reviewer ON reviews.reviewer_id = reviewer.id
+ ORDER BY title;
+ ```

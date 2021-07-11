@@ -73,3 +73,36 @@ JOIN reviews ON series.id = reviews.series_id
  JOIN reviewer ON reviews.reviewer_id = reviewer.id
  ORDER BY title;
  ```
+
+
+## UNION
+
+ join two queries
+
+## VIEW
+
+View is a virtual table created by a query by joining one or more tables
+```
+CREATE VIEW ser AS
+SELECT title, genre FROM series;
+
+SELECT * FROM ser;
+```
+
+##  CROSS JOIN
+ The CROSS JOIN keyword returns all records from both tables
+
+## INDEX
+
+creates an index such as books has
+it completes query quicker if column name is used
+
+- they take storage
+
+- first create a index
+```
+CREATE INDEX tablename_columnname_idx
+ON tablename(columnname)
+```
+
+- we can use multple column for index

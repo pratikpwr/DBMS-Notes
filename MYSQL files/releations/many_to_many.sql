@@ -73,6 +73,10 @@ SELECT * FROM reviews;
 
 DROP TABLE reviews;
 
+CREATE VIEW ser AS
+SELECT title, genre FROM series;
+
+SELECT * FROM ser;
 -- avg rating for each series
 SELECT title, avg(rating) 
 FROM series

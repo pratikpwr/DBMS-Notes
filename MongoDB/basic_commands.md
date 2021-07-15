@@ -19,3 +19,8 @@
 
 `show dbs`
 
+- You can add `.pretty()` after query to get formatted data
+
+```
+db.collection.findOne().pretty()
+```

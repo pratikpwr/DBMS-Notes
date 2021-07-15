@@ -37,3 +37,5 @@ Journal
 ```
 db.collectionName.insertOne({field: "value"}, {writeConcern :{w:1, j: true, wtimeout: 200}})
 ```
+
+
